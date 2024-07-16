@@ -8,7 +8,7 @@ use Application\Dto\DataProviderRequestDto;
 use Domain\Provider\DataProvider;
 use Infrastructute\Decorator\DecoratorManager;
 
-class ExempleUseCase
+class ExampleUseCase
 {
 
     public function getSomeData()

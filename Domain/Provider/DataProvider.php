@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Domain\Provider;
 
-use DataProviderRequestDto;
+use Application\Dto\DataProviderRequestDto;
 use Domain\Decorator\DataProviderInterface;
 
 class DataProvider implements DataProviderInterface

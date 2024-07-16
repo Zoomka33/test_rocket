@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Domain\Decorator;
 
-use DataProviderRequestDto;
+use Application\Dto\DataProviderRequestDto;
 
 interface DataProviderInterface
 {

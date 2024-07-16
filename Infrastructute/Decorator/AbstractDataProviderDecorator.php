@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Infrastructute\Decorator;
 
-use DataProviderRequestDto;
+use Application\Dto\DataProviderRequestDto;
 use Domain\Decorator\DataProviderInterface;
 use Domain\Provider\DataProvider;
 
-abstract class AbstractDataPoviderDecorator implements DataProviderInterface
+abstract class AbstractDataProviderDecorator implements DataProviderInterface
 {
     public function __construct(protected DataProvider $dataProvider)
     {
